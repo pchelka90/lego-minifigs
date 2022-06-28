@@ -34,13 +34,13 @@ interface IProps {
   onClickHandler: Function;
 }
 
-const Card = ({ minifig, onClickHandler }: IProps) => {
+const Card = ({ minifig, order, onClickHandler }: IProps) => {
   const [fadeIn, setFadeIn] = React.useState(false);
 
   useEffect(() => {
     setTimeout(() => {
       setFadeIn(true);
-    }, 500 * (+ 1));
+    }, 500 * (order + 1));
   }, []);
 
   return (
