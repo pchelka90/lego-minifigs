@@ -40,7 +40,7 @@ const Card = ({ minifig, order, onClickHandler }: IProps) => {
   useEffect(() => {
     setTimeout(() => {
       setFadeIn(true);
-    }, 500 * (order + 1));
+    }, 500 * (+ 1));
   }, []);
 
   return (
