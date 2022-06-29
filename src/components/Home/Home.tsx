@@ -31,6 +31,9 @@ const Home = () => (
           width: '40%',
           height: '150%',
           marginTop: '-100px',
+          '&:hover': {
+            backgroundColor: '#1769aa',
+          },
         }}
         variant='contained'
       >
