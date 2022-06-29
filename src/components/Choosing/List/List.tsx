@@ -94,7 +94,7 @@ const SummarizeList = ({ minifig, minifigsParts }: IProps) => {
       </StyledPartsListContainer>
       <Link state={{ minifig }} to='/summary'>
         <Button color='secondary' variant='contained'>
-          Purchase
+          PROCEED TO SHIPMENT
         </Button>
       </Link>
     </StyledContainer>

@@ -1,9 +1,11 @@
 import * as React from 'react';
+import { useNavigate } from 'react-router-dom';
 import { useFormik } from 'formik';
 import { TextField, Typography } from '@mui/material';
 import { styled } from '@mui/system';
 import Button from '@mui/material/Button';
 import * as Yup from 'yup';
+import '../../Home/Home';
 
 const StyledTextfield = styled(TextField)({
   margin: '20px 0',
@@ -79,6 +81,7 @@ const FormValidation = Yup.object().shape({
 });
 
 const ContactForm: React.FC<{}> = () => {
+  const navigate = useNavigate();
   const formik = useFormik({
     initialValues: {
       name: '',
@@ -96,9 +99,8 @@ const ContactForm: React.FC<{}> = () => {
     validateOnBlur: true,
     onSubmit: (values) => {
       alert(JSON.stringify(values, null, 2));
-      alert(
-        'Thank you for using our store. You will be redirected to main site'
-      );
+      alert('Thank you! Now you will be redirected to main site.');
+      navigate('/');
     },
   });
 

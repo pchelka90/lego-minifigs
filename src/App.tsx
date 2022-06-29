@@ -20,7 +20,7 @@ const queryClient = new QueryClient({
 
 const RenderRoutes = () => (
   <Routes>
-    <Route path='/home' element={<Home />} />
+    <Route path='/' element={<Home />} />
     <Route path='/chooseMinifig' element={<ChooseMinifigs />} />
     <Route path='/summary' element={<Summary />} />
     <Route path='/' element={<Navigate to='/home' />} />
