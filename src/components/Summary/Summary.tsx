@@ -2,10 +2,10 @@ import React from 'react';
 import { useLocation } from 'react-router-dom';
 import { Paper, Typography } from '@mui/material';
 import { styled } from '@mui/system';
-import { MinifigInterface } from '../intefaces/Minifig.interface';
-import OrdersList from './OrdersList/OrdersList';
-import ContactForm from './ContactForm/ContactForm';
-import { MinifigPartsResult } from '../intefaces/MinifigParts.interface';
+import { MinifigInterface } from '../Intefaces/Minifig.interface';
+import OrdersList from './Orders/Orders';
+import ContactForm from './Form/Form';
+import { MinifigPartsResult } from '../Intefaces/MinifigParts.interface';
 
 interface Location {
   state: {

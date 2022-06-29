@@ -2,8 +2,8 @@ import React from 'react';
 import { styled } from '@mui/system';
 import { Typography, Button } from '@mui/material';
 import { Link } from 'react-router-dom';
-import { MinifigInterface } from '../../intefaces/Minifig.interface';
-import { MinifigPartsResult } from '../../intefaces/MinifigParts.interface';
+import { MinifigInterface } from '../../Intefaces/Minifig.interface';
+import { MinifigPartsResult } from '../../Intefaces/MinifigParts.interface';
 
 interface IProps {
   minifig: MinifigInterface | null;

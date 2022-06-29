@@ -3,12 +3,12 @@ import { Routes, Route, Navigate } from 'react-router-dom';
 import CssBaseline from '@mui/material/CssBaseline';
 import { ThemeProvider } from '@mui/material/styles';
 import { QueryClientProvider, QueryClient } from 'react-query';
-import Home from './Home/Home';
-import Navbar from './Navbar/Navbar';
-import ChooseMinifigs from './ChooseMinifigs/ChooseMinifigs';
-import Summary from './Summary/Summary';
-import themeLight from './theming/lightTheme';
-import themeDark from './theming/darkTheme';
+import Home from './components/Home/Home';
+import Navbar from './components/Navbar/Navbar';
+import ChooseMinifigs from './components/Choosing/Choosing';
+import Summary from './components/Summary/Summary';
+import themeLight from './components/Theming/lightTheme';
+import themeDark from './components/Theming/darkTheme';
 
 const queryClient = new QueryClient({
   defaultOptions: {

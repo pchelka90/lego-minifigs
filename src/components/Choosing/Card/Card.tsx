@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import { styled } from '@mui/system';
 import { Fade, Typography } from '@mui/material';
-import { MinifigInterface } from '../../intefaces/Minifig.interface';
+import { MinifigInterface } from '../../Intefaces/Minifig.interface';
 
 const StyledCard = styled('div')({
   width: 350,

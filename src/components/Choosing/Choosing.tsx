@@ -3,12 +3,12 @@ import { useQuery, UseQueryResult } from 'react-query';
 import { styled } from '@mui/system';
 import { Drawer } from '@mui/material';
 import Card from './Card/Card';
-import fetchMinifigs from '../intefaces/fetchMinifigs';
-import { MinifigInterface } from '../intefaces/Minifig.interface';
-import { CommonResponse } from '../intefaces/Common.interface';
-import SummarizeList from './summarizeList/SummarizeList';
-import fetchMinifigParts from '../intefaces/fetchMinifigParts';
-import { MinifigPartsResult } from '../intefaces/MinifigParts.interface';
+import fetchMinifigs from '../Intefaces/fetchMinifigs';
+import { MinifigInterface } from '../Intefaces/Minifig.interface';
+import { CommonResponse } from '../Intefaces/Common.interface';
+import SummarizeList from './List/List';
+import fetchMinifigParts from '../Intefaces/fetchMinifigParts';
+import { MinifigPartsResult } from '../Intefaces/MinifigParts.interface';
 
 interface IRenderCardsProps {
   minifigs: MinifigInterface[] | null;

@@ -1,7 +1,7 @@
 import React from 'react';
 import { Typography } from '@mui/material';
 import { styled } from '@mui/system';
-import { MinifigInterface } from '../../intefaces/Minifig.interface';
+import { MinifigInterface } from '../../Intefaces/Minifig.interface';
 
 interface IProps {
   minifig: MinifigInterface;

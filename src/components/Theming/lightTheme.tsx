@@ -1,23 +1,20 @@
 import { createTheme } from '@mui/material/styles';
-import darkBackgroundImage from '../assets/img/background-dark.jpeg';
+import lightBackgroundImage from '../../assets/img/background-light.jpeg';
 
-const themeDark = createTheme({
+const themeLight = createTheme({
   palette: {
     primary: {
-      main: '#000',
-    },
-    secondary: {
-      main: '#2196f3',
+      main: 'rgba(0, 0, 0, 0.895)',
     },
     text: {
-      primary: '#fff',
+      primary: 'rgba(0, 0, 0, 0.87)',
     },
   },
   components: {
     MuiCssBaseline: {
       styleOverrides: {
         body: {
-          backgroundImage: `url(${darkBackgroundImage})`,
+          backgroundImage: `url(${lightBackgroundImage})`,
           backgroundSize: 'cover',
           transition: '1s',
           height: '100%',
@@ -27,4 +24,4 @@ const themeDark = createTheme({
   },
 });
 
-export default themeDark;
+export default themeLight;

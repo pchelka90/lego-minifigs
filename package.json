@@ -1,7 +1,7 @@
 {
   "name": "Lego Loot Box of Harry Potter minifigs",
   "version": "1.0.0",
-  "private": false,
+  "private": true,
   "dependencies": {
     "@emotion/react": "^11.9.3",
     "@emotion/styled": "^11.8.1",
