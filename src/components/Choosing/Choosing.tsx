@@ -71,8 +71,6 @@ const ChooseMinifigs: React.FC = () => {
     }
   );
 
-  // @todo: remove condition from queryKey
-
   const {
     data: minifigParts,
   }: UseQueryResult<CommonResponse<MinifigPartsResult>, Error> = useQuery(
