@@ -20,7 +20,7 @@ const StyledContainer = styled('div')({
 
 const Home = () => (
   <StyledContainer>
-    <Typography variant='h4' mb={-30}>
+    <Typography variant='h3' mb={-25}>
       Lego Minifigs Mystery Box
     </Typography>
     <Link to='/chooseMinifig'>
