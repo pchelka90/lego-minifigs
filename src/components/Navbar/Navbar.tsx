@@ -28,7 +28,7 @@ const Navbar = ({ isDarkModeActive, setIsDarkModeActive }: IProps) => (
           marginTop: '-50px',
           marginBottom: '20px',
         }}
-        variant='h4'
+        variant='h3'
       >
         Lego loot box of Harry Potter minifigs
       </Typography>
